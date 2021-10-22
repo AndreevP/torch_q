@@ -4,6 +4,7 @@ import shutil
 torch_path = "/Vol0/user/p.andreev/anaconda3/envs/pynight/lib/python3.8/site-packages/"
 
 l=  ["torch/quantization/quantization_mappings.py",
+     "torch/quantization/fake_quantize.py",
      "torch/nn/qat/modules/conv.py",
      "torch/nn/modules/conv.py",
      "torch/nn/intrinsic/modules/fused.py",
